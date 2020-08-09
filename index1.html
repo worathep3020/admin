@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CEO</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/css2/adminlte.min.css">
+</head>
+
+<body class="hold-transition sidebar-mini layout-footer-fixed ">
+
+    <!-- Site wrapper -->
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-dark navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Notifications Dropdown Menu -->
+                <form class="form-inline ml-3">
+                    <div class="input-group input-group-sm">
+                        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-navbar" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-bell"></i>
+                        <span class="badge badge-warning navbar-badge">15</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-item dropdown-header">15 Notifications</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <span class="float-right text-muted text-sm">3 mins</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <span class="float-right text-muted text-sm">12 hours</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-file mr-2"></i> 3 new reports
+                            <span class="float-right text-muted text-sm">2 days</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="#" class="brand-link">
+                <img src="images/Logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">CEO</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="images/2.jpg" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="#" class="d-block">Worathep Boonsak</a>
+                    </div>
+                </div>
+
+                <!-- SidebarSearch Form -->
+                <div class="form-inline">
+                    <div class="input-group" data-widget="sidebar-search">
+                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-sidebar">
+                                <i class="fas fa-search fa-fw"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+                           with font-awesome or any other icon font library -->
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link active">
+                                <i class="nav-icon fas fa-address-card"></i>
+                                <p>
+                                    Dashboard
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>profile</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12" align="center">
+                            <h1>System Administrator</h1>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- Default box -->
+
+                            <div class="card  ">
+
+                                <div class="card-body box-profile">
+                                    <div class="text-center">
+                                        <img class="profile-user-img img-fluid img-circle" src="images/2.jpg" alt="User profile picture">
+                                    </div>
+
+                                    <h3 class="profile-username text-center">Worathep Boonsak</h3>
+
+                                    <p class="text-muted text-center">CEO-Organization</p>
+
+                                    <ul class="list-group list-group-unbordered mb-3">
+                                        <li class="list-group-item">
+                                            <b>Followers</b> <a class="float-right">1,322</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <b>Following</b> <a class="float-right">543</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <b>Friends</b> <a class="float-right">13,287</a>
+                                        </li>
+                                    </ul>
+
+                                    <a href="#" class="btn btn-success btn-block"><b>Follow</b></a>
+                                </div>
+
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card-footer-->
+                        <div class="col-md-9">
+                            <div class="card card-green ">
+                                <div class="card-header">
+                                    <h3 class="card-title">
+                                        <i class="far fa-chart-bar"></i> ผลการเรียน
+                                    </h3>
+
+                                    <div class="card-tools">
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                                        <button type="button" class="btn btn-tool" data-card-widget="remove">
+                    <i class="fas fa-times"></i>
+                  </button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div id="bar-chart" style="height: 330px;"></div>
+                                </div>
+                                <!-- /.card-body-->
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- About Me Box -->
+                            <div class="card card-green">
+                                <div class="card-header">
+                                    <h3 class="card-title">About Me</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <strong><i class="fas fa-book mr-1"></i> Education</strong>
+
+                                    <p class="text-muted">
+                                        Maejo University
+                                    </p>
+
+                                    <hr>
+
+                                    <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
+
+                                    <p class="text-muted">Songkhla, Thailand</p>
+                                    <hr>
+
+                                    <strong><i class="far fa-file-alt mr-1"></i>code</strong>
+
+                                    <p class="text-muted">6104101373 </p>
+                                    <hr>
+                                    <strong><i class="fas fa-birthday-cake"></i>Brithday</strong>
+                                    <p class="text-muted">23/05/1999 </p>
+
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <!-- Donut chart -->
+                            <div class=" card card-green ">
+                                <div class="card-header">
+                                    <h3 class="card-title">
+                                        <i class="fas fa-running"></i> Daily life
+                                    </h3>
+
+                                    <div class="card-tools">
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                        <i class="fas fa-minus"></i>
+                                      </button>
+                                        <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                        <i class="fas fa-times"></i>
+                                      </button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div id="donut-chart" style="height: 300px;"></div>
+                                </div>
+                                <!-- /.card-body-->
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <!-- USERS LIST -->
+                            <div class="card card-green">
+                                <div class="card-header">
+
+                                    <h3 class="card-title"><i class="fas fa-book"></i> course</h3>
+
+                                    <div class="card-tools">
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                      <i class="fas fa-minus"></i>
+                                    </button>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>course</th>
+                                                <th>Course code</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td>Cloud Computing</td>
+                                                <td>คพ 323</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+
+                                                    </div>
+                                                </td>
+                                                <tr>
+                                                    <td>Web Application Development</td>
+                                                    <td>คพ 313</td>
+                                                    <td class="text-right py-0 align-middle">
+                                                        <div class="btn-group btn-group-sm">
+                                                            <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+
+                                                        </div>
+                                                    </td>
+                                                    <tr>
+                                                        <td>Object Oriented Analysisand Design</td>
+                                                        <td>คพ 343</td>
+                                                        <td class="text-right py-0 align-middle">
+                                                            <div class="btn-group btn-group-sm">
+                                                                <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+
+                                                            </div>
+                                                        </td>
+                                                        <tr>
+                                                            <td>Psychology and Human Behavior</td>
+                                                            <td>ศท 012</td>
+                                                            <td class="text-right py-0 align-middle">
+                                                                <div class="btn-group btn-group-sm">
+                                                                    <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+
+                                                                </div>
+                                                            </td>
+                                                            <tr>
+                                                                <td>Operating System</td>
+                                                                <td>คพ 320</td>
+                                                                <td class="text-right py-0 align-middle">
+                                                                    <div class="btn-group btn-group-sm">
+                                                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+
+                                                                    </div>
+                                                                </td>
+                                                                <tr>
+                                                                    <td>Data Science</td>
+                                                                    <td>คพ 341</td>
+                                                                    <td class="text-right py-0 align-middle">
+                                                                        <div class="btn-group btn-group-sm">
+                                                                            <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+
+                                                                        </div>
+                                                                    </td>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <!-- interactive chart -->
+                            <div class="card card-green ">
+                                <div class="card-header">
+                                    <h3 class="card-title">
+                                        <i class="far fa-chart-bar"></i> Organization
+                                    </h3>
+
+                                    <div class="card-tools">
+                                        Real time
+                                        <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                                            <button type="button" class="btn btn-default btn-sm active" data-toggle="on">On</button>
+                                            <button type="button" class="btn btn-default btn-sm" data-toggle="off">Off</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div id="interactive" style="height: 300px;"></div>
+                                </div>
+                                <!-- /.card-body-->
+                            </div>
+                            <!-- /.card -->
+
+                        </div>
+                        <!-- /.col -->
+
+                        <!-- /.row -->
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <aside class="control-sidebar control-sidebar-dark">
+    </aside>
+    </div>
+
+    <!-- jQuery -->
+    <script src="css/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="css/js/adminlte.min.js"></script>
+    <!-- FLOT CHARTS -->
+    <script src="css/flot/jquery.flot.js"></script>
+    <!-- FLOT RESIZE PLUGIN - allows the chart to redraw when the window is resized -->
+    <script src="css/flot/plugins/jquery.flot.resize.js"></script>
+    <!-- FLOT PIE PLUGIN - also used to draw donut charts -->
+    <script src="css/flot/plugins/jquery.flot.pie.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="css/js/demo.js"></script>
+    <!--Chart-->
+    <script src="css/chart.js/Chart.bundle.min.js"></script>
+
+    <script>
+        $(function() {
+
+            /*
+             * BAR CHART
+             * ---------
+             */
+
+            var bar_data = {
+                data: [
+                    [1, 2.83],
+                    [2, 2.33],
+                    [3, 2.73],
+                    [4, 3.00],
+
+                ],
+                bars: {
+                    show: true
+                }
+            }
+            $.plot('#bar-chart', [bar_data], {
+                    grid: {
+                        borderWidth: 1,
+                        borderColor: '#f3f3f3',
+                        tickColor: '#f3f3f3'
+                    },
+                    series: {
+                        bars: {
+                            show: true,
+                            barWidth: 0.5,
+                            align: 'center',
+                        },
+                    },
+                    colors: ['#99FF00'],
+                    xaxis: {
+                        ticks: [
+                            [1, 'ปี1เทอม1'],
+                            [2, 'ปี1เทอม2'],
+                            [3, 'ปี2เทอม1'],
+                            [4, 'ปี2เทอม2'],
+
+                        ]
+                    }
+                })
+                /* END BAR CHART */
+
+            /*
+             * DONUT CHART
+             * -----------
+             */
+
+            var donutData = [{
+                label: 'Sleep',
+                data: 40,
+                color: '#33FF33'
+            }, {
+                label: 'playgame',
+                data: 25,
+                color: '#FF3333'
+            }, {
+                label: 'Work',
+                data: 15,
+                color: '#FF33FF'
+            }, {
+                label: 'eat',
+                data: 20,
+                color: '#00c0ef'
+            }]
+            $.plot('#donut-chart', donutData, {
+                    series: {
+                        pie: {
+                            show: true,
+                            radius: 1,
+                            innerRadius: 0.5,
+                            label: {
+                                show: true,
+                                radius: 2 / 3,
+                                formatter: labelFormatter,
+                                threshold: 0.1
+                            }
+
+                        }
+                    },
+                    legend: {
+                        show: false
+                    }
+                })
+                /*
+                 * END DONUT CHART
+                 */
+                /*
+                 * Flot Interactive Chart
+                 * -----------------------
+                 */
+                // We use an inline data source in the example, usually data would
+                // be fetched from a server
+            var data = [],
+                totalPoints = 10000
+
+            function getRandomData() {
+
+                if (data.length > 0) {
+                    data = data.slice(1)
+                }
+
+                // Do a random walk
+                while (data.length < totalPoints) {
+
+                    var prev = data.length > 0 ? data[data.length - 1] : 50,
+                        y = prev + Math.random() * 10 - 5
+
+                    if (y < 0) {
+                        y = 0
+                    } else if (y > 100) {
+                        y = 100
+                    }
+
+                    data.push(y)
+                }
+
+                // Zip the generated y values with the x values
+                var res = []
+                for (var i = 0; i < data.length; ++i) {
+                    res.push([i, data[i]])
+                }
+
+                return res
+            }
+
+            var interactive_plot = $.plot('#interactive', [{
+                data: getRandomData(),
+            }], {
+                grid: {
+                    borderColor: '#f3f3f3',
+                    borderWidth: 1,
+                    tickColor: '#f3f3f3'
+                },
+                series: {
+                    color: '#28a745',
+                    lines: {
+                        lineWidth: 2,
+                        show: true,
+                        fill: true,
+                    },
+                },
+                yaxis: {
+                    min: 0,
+                    max: 100,
+                    show: true
+                },
+                xaxis: {
+                    show: true
+                }
+            })
+
+            var updateInterval = 500 //Fetch data ever x milliseconds
+            var realtime = 'on' //If == to on then fetch data every x seconds. else stop fetching
+            function update() {
+
+                interactive_plot.setData([getRandomData()])
+
+                // Since the axes don't change, we don't need to call plot.setupGrid()
+                interactive_plot.draw()
+                if (realtime === 'on') {
+                    setTimeout(update, updateInterval)
+                }
+            }
+
+            //INITIALIZE REALTIME DATA FETCHING
+            if (realtime === 'on') {
+                update()
+            }
+            //REALTIME TOGGLE
+            $('#realtime .btn').click(function() {
+                    if ($(this).data('toggle') === 'on') {
+                        realtime = 'on'
+                    } else {
+                        realtime = 'off'
+                    }
+                    update()
+                })
+                /*
+                 * END INTERACTIVE CHART
+                 */
+
+
+        })
+
+        /*
+         * Custom Label formatter
+         * ----------------------
+         */
+        function labelFormatter(label, series) {
+            return '<div style="font-size:13px; text-align:center; padding:2px; color: #fff; font-weight: 600;">' +
+                label +
+                '<br>' +
+                Math.round(series.percent) + '%</div>'
+        }
+    </script>
+</body>
+
+</html>
